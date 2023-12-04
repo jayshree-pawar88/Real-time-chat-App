@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    height: 550px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 8px gray;
+    width: 800px;
+    margin: 50px;
+}
+.heading{
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+}
+.heading h2{
+    color: rgb(74, 28, 118);
+    text-align: center;
+    padding-top: 10px;
+}
+#chat-output{
+    height: 450px;
+    width: 100%;
+}
+.input-container{
+    height: 50px;
+    width: 100%;
+}
+.input-container input{
+    height: 30px;
+    width: 70%;
+    border-radius: 5px;
+    margin: 10px;
+}
+.input-container button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 20%;
+    border-radius: 5px;
+}
